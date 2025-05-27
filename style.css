@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'Mojangles';
+  src: url('fonts/mojangles.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Fondo general y texto */
+body {
+  background-color: #1f1f1f;
+  color: #01FFE4;
+  font-family: 'mojangles', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #2b2b2b;
+  box-shadow: 0 0 10px #01FFE4aa;
+  border-bottom: 2px solid #01FFE4;
+  border-radius: 0 0 16px 16px; /* Bordes inferiores curvos */
+  animation: rgbGlow 6s linear infinite;
+}
+
+/* Distribución en dos columnas */
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* Isla de filtros */
+.filtros {
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #01FFE4aa;
+  width: 200px;
+  margin-right: 40px; /* Más separación del listado */
+  position: sticky;
+  top: 20px;
+  animation: rgbGlow 6s linear infinite;
+}
+
+/* Input de búsqueda dentro de .filtros */
+.filtros #buscador {
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto 20px auto;
+  display: block;
+  font-size: 14px;
+  border-radius: 8px;
+  border: none;
+  background-color: #2a2a2a;
+  color: #01FFE4;
+  box-shadow: 0 0 6px #01FFE4aa;
+}
+
+/* Subtítulos dentro de filtros */
+.filtros h3 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+/* Botones de filtro */
+.filtros button {
+  background-color: #01FFE4;
+  color: #1f1f1f;
+  border: none;
+  padding: 10px;
+  margin: 5px 0;
+  width: 100%;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.filtros button:hover {
+  background-color: #00ccc0;
+}
+
+/* Lista de videojuegos */
+#ranking-list {
+  list-style: none;
+  padding: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Elementos del ranking */
+#ranking-list li {
+  background-color: #2b2b2b;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #01FFE433;
+}
+
+/* Imagen del videojuego */
+#ranking-list img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 20px;
+  object-fit: cover;
+}
+
+/* Contenido del videojuego */
+#ranking-list li div {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px; /* Aumentado el tamaño de letra */
+}
+
+#ranking-list li strong {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+/* Animación RGB */
+@keyframes rgbGlow {
+  0% { box-shadow: 0 0 15px #ff0040; }
+  25% { box-shadow: 0 0 15px #ff8000; }
+  50% { box-shadow: 0 0 15px #00ff90; }
+  75% { box-shadow: 0 0 15px #00aaff; }
+  100% { box-shadow: 0 0 15px #ff0040; }
+}

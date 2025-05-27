@@ -1,0 +1,331 @@
+[
+  {
+    "titulo": "Minecraft",
+    "ventas": 350,
+    "imagen": "imagenes/minecraft.jpg",
+    "metascore": 93,
+    "user_score": 8.3
+  },
+  {
+    "titulo": "Grand Theft Auto V",
+    "ventas": 215,
+    "imagen": "imagenes/gta_v.jpg",
+    "metascore": 97,
+    "user_score": 8.5
+  },
+  {
+    "titulo": "Tetris (EA)",
+    "ventas": 100,
+    "imagen": "imagenes/tetris_ea.jpg",
+    "metascore": 85,
+    "user_score": 7.5
+  },
+  {
+    "titulo": "Wii Sports",
+    "ventas": 82.9,
+    "imagen": "imagenes/wii_sports.png",
+    "metascore": 76,
+    "user_score": 8.0
+  },
+  {
+    "titulo": "Ark: Survival Evolved",
+    "ventas": 79,
+    "imagen": "imagenes/ark.jpg",
+    "metascore": 70,
+    "user_score": 6.5
+  },
+  {
+    "titulo": "Mario Kart 8 Deluxe",
+    "ventas": 76.66,
+    "imagen": "imagenes/MK8D.jpg",
+    "metascore": 92,
+    "user_score": 8.6
+  },
+  {
+    "titulo": "PUBG: Battlegrounds",
+    "ventas": 75,
+    "imagen": "imagenes/pubg.png",
+    "metascore": 86,
+    "user_score": 4.9
+  },
+  {
+    "titulo": "Super Mario Bros.",
+    "ventas": 58,
+    "imagen": "imagenes/SMB.jpg",
+    "metascore": 84,
+    "user_score": 8.1
+  },
+  {
+    "titulo": "Red Dead Redemption 2",
+    "ventas": 63,
+    "imagen": "imagenes/RDR2.jpg",
+    "metascore": 97,
+    "user_score": 8.9
+  },
+  {
+    "titulo": "Terraria",
+    "ventas": 44.5,
+    "imagen": "imagenes/terraria.jpg",
+    "metascore": 81,
+    "user_score": 8.3
+  },
+  {
+    "titulo": "Wii Fit Plus",
+    "ventas": 43.8,
+    "imagen": "imagenes/wiifit.jpg",
+    "metascore": 80,
+    "user_score": 7.5
+  },
+  {
+    "titulo": "Tetris (1989, Game Boy)",
+    "ventas": 43,
+    "imagen": "imagenes/tetris_1989.jpg",
+    "metascore": 0,
+    "user_score": 0
+  },
+  {
+    "titulo": "Pac-Man",
+    "ventas": 42.07,
+    "imagen": "imagenes/pacman.jpg",
+    "metascore": 0,
+    "user_score": 0
+  },
+  {
+    "titulo": "Animal Crossing: New Horizons",
+    "ventas": 41.59,
+    "imagen": "imagenes/ACNH.jpg",
+    "metascore": 90,
+    "user_score": 5.8
+  },
+  {
+    "titulo": "Human: Fall Flat",
+    "ventas": 40,
+    "imagen": "imagenes/HFF.jpg",
+    "metascore": 70,
+    "user_score": 7.3
+  },
+  {
+    "titulo": "The Witcher 3: Wild Hunt - Blood and Wine",
+    "ventas": 40,
+    "imagen": "imagenes/the_witcher.jpg",
+    "metascore": 92,
+    "user_score": 9.3
+  },
+  {
+    "titulo": "Mario Kart Wii",
+    "ventas": 37.38,
+    "imagen": "imagenes/MKW.jpg",
+    "metascore": 82,
+    "user_score": 8.6
+  },
+  {
+    "titulo": "Wii Sports Resort",
+    "ventas": 33.14,
+    "imagen": "imagenes/WSR.jpg",
+    "metascore": 80,
+    "user_score": 8.5
+  },
+  {
+    "titulo": "New Super Mario Bros",
+    "ventas": 30.8,
+    "imagen": "imagenes/NSMB.jpg",
+    "metascore": 89,
+    "user_score": 8.5
+  },
+  {
+    "titulo": "The Legend of Zelda: Breath of the Wild",
+    "ventas": 30.7,
+    "imagen": "imagenes/TLOZBOTW.jpg",
+    "metascore": 97,
+    "user_score": 8.9
+  },
+  {
+    "titulo": "Super Smash Bros. Ultimate",
+    "ventas": 30.44,
+    "imagen": "imagenes/SSBU.jpg",
+    "metascore": 93,
+    "user_score": 8.7
+  },
+  {
+    "titulo": "New Super Mario Bros. Wii",
+    "ventas": 30.32,
+    "imagen": "imagenes/NSMBW.jpg",
+    "metascore": 87,
+    "user_score": 8.2
+  },
+  {
+    "titulo": "Call of Duty: Modern Warfare",
+    "ventas": 30,
+    "imagen": "imagenes/CODMW.jpg",
+    "metascore": 80,
+    "user_score": 3.7
+  },
+  {
+    "titulo": "Diablo III: Reaper of Souls",
+    "ventas": 30,
+    "imagen": "imagenes/Diablo3.jpg",
+    "metascore": 87,
+    "user_score": 6.7
+  },
+  {
+    "titulo": "The Elder Scrolls V: Skyrim",
+    "ventas": 30,
+    "imagen": "imagenes/Skyrim.png",
+    "metascore": 96,
+    "user_score": 8.6
+  },
+  {
+    "titulo": "Pokémon Oro/Plata/Cristal",
+    "ventas": 29.49,
+    "imagen": "imagenes/PokemonOPC.jpg",
+    "metascore": 89,
+    "user_score": 8.9
+  },
+  {
+    "titulo": "The Legend of Zelda: Tears of the Kingdom",
+    "ventas": 28.85,
+    "imagen": "imagenes/TLOZTOTK.jpg",
+    "metascore": 86,
+    "user_score": 8.8
+  },
+  {
+    "titulo": "Call of Duty: Black Ops II",
+    "ventas": 28.5,
+    "imagen": "imagenes/CODBO2.jpg",
+    "metascore": 83,
+    "user_score": 5.9
+  },
+  {
+    "titulo": "Call of Duty: Black Ops",
+    "ventas": 28,
+    "imagen": "imagenes/CODBO.jpg",
+    "metascore": 87,
+    "user_score": 7.1
+  },
+  {
+    "titulo": "Call of Duty: Modern Warfare 3",
+    "ventas": 26.5,
+    "imagen": "imagenes/CODMW3.jpg",
+    "metascore": 88,
+    "user_score": 3.9
+  },
+  {
+    "titulo": "New Super Mario Bros. (DS)",
+    "ventas": 30.8,
+    "imagen": "imagenes/NSMBDS.jpg",
+    "metascore": 89,
+    "user_score": 8.6
+  },
+  {
+    "titulo": "Borderlands 2",
+    "ventas": 27,
+    "imagen": "imagenes/Borderlands2.jpg",
+    "metascore": 89,
+    "user_score": 8.2
+  },
+  {
+    "titulo": "Call of Duty: Vanguard",
+    "ventas": 30,
+    "imagen": "imagenes/CODV.jpg",
+    "metascore": 73,
+    "user_score": 3.6
+  },
+  {
+    "titulo": "Pokémon Diamante/Perla",
+    "ventas": 17.67,
+    "imagen": "imagenes/PokemonDP.jpg",
+    "metascore": 85,
+    "user_score": 8.4
+  },
+  {
+    "titulo": "Grand Theft Auto: San Andreas",
+    "ventas": 27.5,
+    "imagen": "imagenes/GTASA.jpg",
+    "metascore": 95,
+    "user_score": 9.1
+  },
+  {
+    "titulo": "Grand Theft Auto IV",
+    "ventas": 25,
+    "imagen": "imagenes/GTAIV.jpg",
+    "metascore": 98,
+    "user_score": 8.3
+  },
+  {
+    "titulo": "Nintendogs",
+    "ventas": 23.96,
+    "imagen": "imagenes/Nintendogs.jpg",
+    "metascore": 83,
+    "user_score": 7.1
+  },
+  {
+    "titulo": "Mario Kart DS",
+    "ventas": 23.6,
+    "imagen": "imagenes/MKDS.jpg",
+    "metascore": 91,
+    "user_score": 8.6
+  },
+  {
+    "titulo": "Call of Duty: Modern Warfare 2",
+    "ventas": 22.7,
+    "imagen": "imagenes/CODMW2.jpg",
+    "metascore": 94,
+    "user_score": 7.9
+  },
+  {
+    "titulo": "Grand Theft Auto: Vice City",
+    "ventas": 20,
+    "imagen": "imagenes/GTAVC.jpg",
+    "metascore": 95,
+    "user_score": 8.6
+  },
+  {
+    "titulo": "Brain Age",
+    "ventas": 19.01,
+    "imagen": "imagenes/BA.jpg",
+    "metascore": 77,
+    "user_score": 6.0
+  },
+  {
+    "titulo": "Pokémon Rubí/Zafiro",
+    "ventas": 16.22,
+    "imagen": "imagenes/PokemonRZ.png",
+    "metascore": 82,
+    "user_score": 8.3
+  },
+  {
+    "titulo": "The Sims",
+    "ventas": 16,
+    "imagen": "imagenes/TheSims.jpg",
+    "metascore": 92,
+    "user_score": 8.0
+  },
+  {
+    "titulo": "Need for Speed: Most Wanted",
+    "ventas": 16,
+    "imagen": "imagenes/NFSMW.jpg",
+    "metascore": 83,
+    "user_score": 8.3
+  },
+  {
+    "titulo": "Gran Turismo 3: A-Spec",
+    "ventas": 14.89,
+    "imagen": "imagenes/GT3.jpg",
+    "metascore": 95,
+    "user_score": 8.3
+  },
+  {
+    "titulo": "Brain Age 2",
+    "ventas": 14.88,
+    "imagen": "imagenes/BA2.jpg",
+    "metascore": 77,
+    "user_score": 6.7
+  },
+  {
+    "titulo": "Halo 3",
+    "ventas": 14.5,
+    "imagen": "imagenes/Halo3.jpg",
+    "metascore": 94,
+    "user_score": 8.7
+  }
+]

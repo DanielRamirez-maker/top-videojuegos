@@ -5,7 +5,7 @@ class VideojuegoDAO {
 
   async obtenerRanking() {
     try {
-      const response = await fetch(this.rutaJson);
+      const dao = new VideojuegoDAO('./dao/videojuegos.json');
       const data = await response.json();
       return data.sort((a, b) => b.ventas - a.ventas);
     } catch (error) {

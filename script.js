@@ -6,7 +6,7 @@ let textoBusqueda = "";
 document.addEventListener("DOMContentLoaded", async () => {
   const dao = new VideojuegoDAO("data/videojuegos.json");
   juegosCargados = await dao.obtenerRanking();
-  mostrarLista(juegosCargados);
+  aplicarFiltros(); // Aplicamos filtros para mostrar todos inicialmente
 });
 
 function mostrarLista(lista) {
@@ -43,7 +43,7 @@ function filtrarPorUserScore(valor) {
 }
 
 function aplicarFiltros() {
-  const filtrados = juegosCargados.filter(j => 
+  const filtrados = juegosCargados.filter(j =>
     j.metascore >= metascoreMin &&
     j.user_score >= userScoreMin &&
     j.titulo.toLowerCase().includes(textoBusqueda)

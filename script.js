@@ -4,7 +4,7 @@ let userScoreMin = 0;
 let textoBusqueda = "";
 
 document.addEventListener("DOMContentLoaded", async () => {
-  const dao = new VideojuegoDAO("dao/videojuegos.json"); // Ajusta la ruta aquí según tu estructura
+  const dao = new VideojuegoDAO("data/videojuegos.json");
   juegosCargados = await dao.obtenerRanking();
   mostrarLista(juegosCargados);
 });

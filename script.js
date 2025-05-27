@@ -1,9 +1,10 @@
 let juegosCargados = [];
 let metascoreMin = 0;
 let userScoreMin = 0;
+let textoBusqueda = "";
 
 document.addEventListener("DOMContentLoaded", async () => {
-  const dao = new VideojuegoDAO("data/videojuegos.json");
+  const dao = new VideojuegoDAO("dao/videojuegos.json"); // Ajusta la ruta aquí según tu estructura
   juegosCargados = await dao.obtenerRanking();
   mostrarLista(juegosCargados);
 });
@@ -27,11 +28,8 @@ function mostrarLista(lista) {
 }
 
 function filtrarPorNombre() {
-  const texto = document.getElementById("buscador").value.toLowerCase();
-  const juegosFiltrados = videojuegos.filter(juego =>
-    juego.nombre.toLowerCase().includes(texto)
-  );
-  renderizarRanking(juegosFiltrados);
+  textoBusqueda = document.getElementById("buscador").value.toLowerCase();
+  aplicarFiltros();
 }
 
 function filtrarPorMetascore(valor) {
@@ -45,8 +43,10 @@ function filtrarPorUserScore(valor) {
 }
 
 function aplicarFiltros() {
-  const filtrados = juegosCargados.filter(j =>
-    j.metascore >= metascoreMin && j.user_score >= userScoreMin
+  const filtrados = juegosCargados.filter(j => 
+    j.metascore >= metascoreMin &&
+    j.user_score >= userScoreMin &&
+    j.titulo.toLowerCase().includes(textoBusqueda)
   );
   mostrarLista(filtrados);
 }
